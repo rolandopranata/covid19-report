@@ -1,77 +1,85 @@
 @import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&family=Georama&display=swap');
-
-
-*{
-    font-family: 'Atkinson Hyperlegible', sans-serif;
+* {
+  font-family: 'Atkinson Hyperlegible', sans-serif;
 }
 
-
-.container-fluid{
-    padding: 20px 10% !important;
+.container-fluid {
+  padding: 20px 10% !important;
 }
 
-
-h1, h2{
-    font-family: 'Georama', sans-serif; 
-} 
-
-.big-font{
-    color: #035AA6;
+h1,
+h2 {
+  font-family: 'Georama', sans-serif;
 }
 
-.btn-more{
-    background-color: #035AA6 !important;
-    color: #fff !important;
+.big-font {
+  color: #035aa6;
 }
 
-.bg-hero{
-    background-image: url('../assets/blob-scene-haikei.svg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: top;
+.btn-more {
+  background-color: #035aa6 !important;
+  color: #fff !important;
+  transition: all 0.3s;
 }
 
-.hero-image{
-    width: 95%;
-    margin: 10% auto auto 5%;
+.btn-more:hover {
+  background-color: #0081f1 !important;
 }
 
-.description-text{
-    color: #979797;
-    font-family: 'Georama', sans-serif;
+.bg-hero {
+  background-image: url('../assets/blob-scene-haikei.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
 }
 
+.hero-image {
+  width: 95%;
+  margin: 10% auto auto 5%;
+}
+
+.description-text {
+  color: #b4b4b4;
+  font-family: 'Georama', sans-serif;
+}
 
 div .bg-card {
-    background-color: #9c9c9c;
+  background-color: #cacaca;
+  border: none;
 }
 
-.txt-recovered{
-    color: #04c8c2;
+.card-title {
+  font-size: 2.3rem;
+  text-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
 }
 
-.txt-confirmed{
-    color: #fcc636;
+.card-text {
+  font-size: 1.3rem;
+  color: #fff;
 }
 
-.txt-dead{
-    color: #f6174e;
+.txt-recovered {
+  color: #04c8c2;
 }
 
-
-
-@media (max-width:1000px){
-    .hero-image{
-        width: 70%;
-        margin: 0 0 0 20%;
-    }
+.txt-confirmed {
+  color: #ff7300;
 }
 
-@media (max-width:320px){
-    .hero-image{
-        width: 100%;
-        margin: 10% 0 0 0;
-    }
+.txt-dead {
+  color: #f6174e;
 }
 
+@media (max-width: 1000px) {
+  .hero-image {
+    width: 70%;
+    margin: 0 0 0 20%;
+  }
+}
 
+@media (max-width: 320px) {
+  .hero-image {
+    width: 100%;
+    margin: 10% 0 0 0;
+  }
+}

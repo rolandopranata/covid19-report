@@ -1,5 +1,4 @@
 class LocalInfo extends HTMLElement {
-  
   set coronaItem(item) {
     this._coronaItem = item;
     this.render();
@@ -15,7 +14,7 @@ class LocalInfo extends HTMLElement {
           <div class="card bg-card" data-aos="fade-right" data-aos-duration="1000">
             <div class="card-body">
               <h3 class="card-title txt-confirmed">${this._coronaItem.confirmed.value}</h3>
-              <p class="card-text text-light fs-6">Terkonfirmasi</p>
+              <p class="card-text text-light ">Terkonfirmasi</p>
             </div>
           </div>
         </article>
@@ -23,7 +22,7 @@ class LocalInfo extends HTMLElement {
           <div class="card bg-card" data-aos="zoom-in" data-aos-duration="1000">
             <div class="card-body">
               <h3 class="card-title txt-dead">${this._coronaItem.deaths.value}</h3>
-              <p class="card-text text-light fs-6">Meninggal</p>                    
+              <p class="card-text text-light ">Meninggal</p>                    
             </div>
           </div>
         </article>
@@ -31,7 +30,7 @@ class LocalInfo extends HTMLElement {
           <div class="card bg-card" data-aos="fade-left" data-aos-duration="1000">
             <div class="card-body">
               <h3 class="card-title txt-recovered">${this._coronaItem.recovered.value}</h3>
-              <p class="card-text text-light fs-6">Sembuh</p>
+              <p class="card-text text-light ">Sembuh</p>
             </div>
           </div>
         </article>

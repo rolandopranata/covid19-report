@@ -30,6 +30,10 @@ module.exports = {
       },
     ],
   },
+  devServer: {
+    inline: true,
+    port: 8008,
+  },
   plugins: [
     new HtmlWebpackPlugin({
       template: './src/template.html',
