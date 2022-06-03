@@ -1,12 +1,12 @@
-class FooterContent extends HTMLElement{
-    connectedCallback(){
+class FooterContent extends HTMLElement {
+    connectedCallback() {
         this.render();
     }
 
-    render(){
+    render() {
         this.innerHTML = `
         <footer class="container">
-            <p class="footer text-center">&copy; 2021. Dibuat oleh Rolando Pranata.</p>
+            <p class="footer text-center">&copy;2021. dibuat oleh Rolando Pranata.</p>
         </footer>`;
     }
 }
