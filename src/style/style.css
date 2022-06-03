@@ -10,9 +10,10 @@ body {
 }
 
 .big-font {
-  font-size: 3rem;
-  color: #035aa6;
   margin-top: 1rem;
+  font-size: 3rem;
+  text-transform: uppercase;
+  color: #035aa6;
 }
 
 .btn-more {
@@ -33,19 +34,25 @@ body {
 }
 
 .description-text {
-  font-size: 0.875rem;
+  width: 100%;
+  font-size: 1.2rem;
   color: #797979;
   max-width: 45ch;
   text-align: left;
 }
 
 .date-text {
+  width: 100%;
+  text-align: left;
+}
+
+.date-format {
   font-weight: bold;
   color: #212529;
 }
 
 .bg-card {
-  background-color: #212529;
+  background-color: #b9b9b9;
   border: none;
 }
 
@@ -65,7 +72,7 @@ body {
 }
 
 .txt-recovered {
-  color: #04c8c2;
+  color: #269692;
 }
 
 .txt-confirmed {
@@ -88,6 +95,9 @@ body {
 @media (max-width: 766px) {
   .bg-card {
     border-radius: 0;
+  }
+  .date-text {
+    text-align: center;
   }
 }
 
