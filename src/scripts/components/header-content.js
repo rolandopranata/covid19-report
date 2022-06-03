@@ -1,16 +1,14 @@
 import illustration from '../../assets/face-mask.svg';
 
 class HeaderContent extends HTMLElement {
-  connectedCallback() {
-    this.render();
-  }
+    connectedCallback() {
+        this.render();
+    }
 
-  render() {
-    this.innerHTML = `
+    render() {
+        this.innerHTML = `
     <div class="container-fluid bg-hero">
-      <a href="index.html" class="text-decoration-none text-center">
-        <h1 class="fw-bold big-font" data-aos="fade-down" data-aos-duration="2000">Cov19</h1>
-      </a>
+        <h1 class="fw-bold big-font text-center" data-aos="fade-down" data-aos-duration="2000">Cov19</h1>
         <div class="row align-items-center pt-5 pb-5">
             <div class="col-lg-7 col-sm-12 col-md-12">
               <h2 class="big-font fs-1 fw-bold" data-aos="fade-right" data-aos-duration="2000">Stay Save, Be Aware</h1>
@@ -22,7 +20,7 @@ class HeaderContent extends HTMLElement {
             </div>
         </div>
     </div>`;
-  }
+    }
 }
 
 customElements.define('header-content', HeaderContent);
