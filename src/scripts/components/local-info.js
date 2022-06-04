@@ -11,7 +11,7 @@ class LocalInfo extends HTMLElement {
         this.innerHTML = `
     <div class="container-fluid pt-5 pb-5 text-center">
       <h2 class="title-font fs-2 mb-3">Indonesia Info</h2>
-      <p class="date-text">Update terakhir pada  <span class="date-format">${date}</span></p>
+      <p class="date-text">Update terakhir <span class="date-format">${date}</span></p>
       <div class="row">
         <div class="col-lg-4 col-md-4 col-sm-12">
           <div class="card bg-card" data-aos="fade-right" data-aos-duration="1000">

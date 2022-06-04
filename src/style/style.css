@@ -43,12 +43,12 @@ body {
 
 .date-text {
   width: 100%;
-  text-align: left;
+  text-align: center;
+  color: #212529;
 }
 
 .date-format {
-  font-weight: bold;
-  color: #212529;
+  font-weight: 700;
 }
 
 .bg-card {
@@ -95,9 +95,6 @@ body {
 @media (max-width: 766px) {
   .bg-card {
     border-radius: 0;
-  }
-  .date-text {
-    text-align: center;
   }
 }
 
